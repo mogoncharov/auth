@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ca1717;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    margin: 20px;
+    align-items:center;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.registr{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+.welcome {
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.exit {
+    color:rgb(255, 255, 255);
+    font-size:large;
+}
+
+a {
+    color: #055cad;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #aa6d6d;
+    border: unset;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #000000;
+}
+
+.auth_button, .registr_button{
+    color:rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 5px;
+}
+.auth_button:hover, .registr_button:hover{
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #000000;
+}
+.upload_button {
+    margin-top: 3px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    border-bottom: 2px solid #f34e3f;
+}
+
+.msg {
+    border: 2px solid #d68f0c;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
+
+.logout {
+    color: #884844;
+}
